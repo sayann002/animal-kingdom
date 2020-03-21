@@ -1,0 +1,52 @@
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+
+h1{
+	font-family: fantasy;
+	font-weight: lighter;
+	font-size: 3.5em;
+
+	/*border-bottom: 6px solid black; // WE CAN USE THESE BORDER PROPERTIES AS WELL TO STYLE ANYTHING SPECIFIC.
+	border-right: 6px solid black;
+	border-left: 6px solid black;
+	border-top: 6px solid black;*/
+	
+	border: 6px solid black;
+	text-align: center;
+	cursor: pointer;
+	background-color: violet;
+	margin-top: 5px;
+	box-shadow: 15px 15px 8px grey;
+	margin-bottom: 30px;
+
+	/*width: 400px;*/
+	
+}
+
+h1:hover{
+/*	
+	color: blue;
+	transition: color 2s;
+*/
+	background-color: green;
+	transition: background-color 1s;
+}
+
+img{
+	width: 380px;
+	height: 350px;
+	margin: 5px;
+	transition: all 0.5s;
+	cursor: pointer;
+	/*padding: 2px;*/
+	
+}
+img:hover{
+	transform: scale(1.1);
+
+}
